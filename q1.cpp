@@ -2,9 +2,9 @@
 #include <iomanip>
 using namespace std;
 
-********************
-Declare Function Prototypes
-********************
+
+// Declare Function Prototypes
+
 void swapTwoValues(int &a, int &b);
 void swapTwoValues(float &a, float &b);
 void getinput(int &a, int &b);
