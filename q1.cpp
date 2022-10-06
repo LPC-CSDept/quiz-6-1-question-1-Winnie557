@@ -13,24 +13,18 @@ void getinput(float &a, flat &b){
 	cout << "Enter two numbers: " << endl;
 	cin >> a >> b;
 }
-
-void swapTwoValues(int n1, int n2){
+void swapTwoValues(int &a, int &b){
 	int temp;
-	temp = n1;
-	n1 = n2;
-	n2 = temp;
+	temp = a;
+	a = b;
+	b = temp;
 }
-
-
-
-
-
-
-
-
-
-
-
+void swapTwovalues(float &a, float &b){
+	float temp;
+	temp = a;
+	a = b;
+	b = temp;
+}
 int main()
 {
 	int num1, num2;
