@@ -5,6 +5,28 @@ using namespace std;
 //********************
 // Declare Function Prototypes
 //********************
+void getinput(int num1, int num2){
+	
+}
+
+void swapTwoValues(int n1, int n2){
+	int temp;
+	cout << "Enter two numbers: " << endl;
+	cin >> n1 >> n2;
+	temp = n1;
+	n1 = n2;
+	n2 = temp;
+}
+
+
+
+
+
+
+
+
+
+
 
 int main()
 {
