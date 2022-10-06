@@ -9,7 +9,7 @@ void getinput(int &a, int &b){
 	cout << "Enter two numbers: " << endl;
 	cin >> a >> b;
 }
-void getinput(float &a, flat &b){
+void getinput(float &a, float &b){
 	cout << "Enter two numbers: " << endl;
 	cin >> a >> b;
 }
@@ -39,6 +39,7 @@ int main()
 	cout << setw(5) << fnum1 << setw(5) << fnum2 << setw(5) << endl;
 	swapTwoValues(fnum1, fnum2);
 	cout << setw(5) << fnum1 << setw(5) << fnum2 << setw(5) << endl;
+	return 0;
 }
 
 // ******************************
