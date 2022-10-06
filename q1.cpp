@@ -5,14 +5,17 @@ using namespace std;
 //********************
 // Declare Function Prototypes
 //********************
-void getinput(int num1, int num2){
-	
+void getinput(int &a, int &b){
+	cout << "Enter two numbers: " << endl;
+	cin >> a >> b;
+}
+void getinput(float &a, flat &b){
+	cout << "Enter two numbers: " << endl;
+	cin >> a >> b;
 }
 
 void swapTwoValues(int n1, int n2){
 	int temp;
-	cout << "Enter two numbers: " << endl;
-	cin >> n1 >> n2;
 	temp = n1;
 	n1 = n2;
 	n2 = temp;
