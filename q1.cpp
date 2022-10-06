@@ -2,28 +2,26 @@
 #include <iomanip>
 using namespace std;
 
-//********************
-// Declare Function Prototypes
-//********************
+********************
+Declare Function Prototypes
+********************
 void getinput(int &a, int &b){
-	cout << "Enter two numbers: " << endl;
-	cin >> a >> b;
-}
-void getinput(float &a, float &b){
-	cout << "Enter two numbers: " << endl;
-	cin >> a >> b;
+    cout << "Enter two integers: " << endl;
+    cin >> a >> b;
 }
 void swapTwoValues(int &a, int &b){
-	int temp;
-	temp = a;
-	a = b;
-	b = temp;
+    a = a+b;
+    b = a-b;
+    a = a-b;
 }
-void swapTwovalues(float &a, float &b){
-	float temp;
-	temp = a;
-	a = b;
-	b = temp;
+void getinput(float &a, float &b){
+    cout << "Enter two floats: " << endl;
+    cin >> a >> b;
+}
+void swapTwoValues(float &a, float &b){
+    a = a+b;
+    b = a-b;
+    a = a-b;
 }
 int main()
 {
@@ -42,6 +40,3 @@ int main()
 	return 0;
 }
 
-// ******************************
-// Implement all your functions here
-// ******************************
